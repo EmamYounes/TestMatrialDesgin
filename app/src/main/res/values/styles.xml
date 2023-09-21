@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ErrorTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="boxStrokeColor">@android:color/holo_red_light</item> <!-- Red border color -->
+        <item name="boxStrokeWidth">2dp</item> <!-- Border width -->
+        <item name="boxBackgroundColor">@android:color/white</item> <!-- White background -->
+    </style>
+</resources>
