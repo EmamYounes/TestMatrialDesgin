@@ -40,7 +40,8 @@ class MainActivity : AppCompatActivity() {
                             baseContext,
                             R.drawable.custom_edittext_error_background
                         ) // Set error background
-
+                    textInputLayout.helperText = "safljdalskjfsajlksa"
+                    textInputLayout.setHelperTextTextAppearance(R.style.HelperTextAppearance)
                 } else {
                     // Reset to default background
                     textInputEditText.background =
@@ -48,7 +49,7 @@ class MainActivity : AppCompatActivity() {
                             baseContext,
                             R.drawable.custom_edittext_background
                         ) // Set default background
-
+                    textInputLayout.helperText = ""
                 }
             }
 
